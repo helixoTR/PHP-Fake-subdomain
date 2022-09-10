@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^(www|webmail|ftp)\.yourdomain\.com [NC]
+RewriteCond %{HTTP_HOST} ^(.*?)\.yourdomain\.com [NC]
+RewriteRule ^$ index.php?getParameter=%1 [L]
