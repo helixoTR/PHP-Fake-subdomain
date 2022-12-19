@@ -1,4 +1,4 @@
-# PHP-Fakesubdomain
+# PHP-Fake subdomain
 Bu projede sizlere nasıl basit bir şekilde php kullanarak sahte alt alanadı yapılır bunu gösterdim.
 
 Bu kodlar sadece Apache destekli sunucularda çalışmaktadır, nginx vb. altyapılı sunucularda çalışmamaktadır.
